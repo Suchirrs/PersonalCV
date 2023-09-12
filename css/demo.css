@@ -1,0 +1,148 @@
+body { 
+    margin: 0px;
+}
+nav {
+    /* background-color: rgb(54, 58, 164); */
+    background-color: #293241;
+    display: flex;
+    justify-content:right;
+}
+
+nav a{ 
+    background-color: #3d5a80;
+    color:white;
+    /* background-color: rgb(73, 78, 222);
+    color: white; */
+   
+}
+nav a:hover {
+    background-color: lightblue;
+    /* color: lightblue; */
+    /* background-color: rgb(54, 59, 198);
+    color: rgb(188, 188, 188); */
+} 
+a:link{ 
+    color: rgb(240, 19, 19);
+    text-decoration:none;
+}
+a:hover {
+  text-decoration:none; 
+  color:#3d5a80;  
+}
+.section1 {
+    /* background-color: rgb(64, 176, 175); */
+    background-color: #3d5a80;
+    text-align: center;
+    /* display:flex;
+    justify-content:center; */
+    padding:100px;
+}
+.section2{
+    background-color: lightblue;
+   /* background-color: #98c1d9 ; */
+    padding: 10px;
+    color: #3d5a80;
+}
+.header {
+    font-family: fantasy, "Copperplate";
+    font-size: 36px;
+    font-weight: lighter;
+    color: #e0fbfc;
+}
+.volleyball {
+    position:absolute ;
+    top: 15;
+    left: 0;
+}
+.computer{
+    position: absolute;
+    bottom: 15;
+    right: 0;
+}
+.mePic{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.about{
+    text-align: center;
+}
+.subHeader {
+    font-family: fantasy, "Copperplate";
+    font-size: 28px;
+    font-weight: lighter;
+    color: #e0fbfc;
+}
+.card{
+    border: 1px solid black; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #3d5a80;
+    outline: none;
+    padding: 3%;
+    font-size: medium;
+    text-align: left;
+    display: flex;
+    color: #e0fbfc;
+}
+.input{
+    padding-top: 25px;
+}
+.contactCard{
+    border: 1px solid black; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #3d5a80;
+    outline: none;
+    padding: 3%;
+    font-size: medium;
+    text-align: left;
+    display: flex;
+    color: #e0fbfc;
+    padding: 100px
+}
+.languagesimg{
+    align-items: center;
+    position:absolute;
+    padding: 2px;
+}
+.languagesContent{
+    text-align: left;
+    padding-top: 125px;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+  }
+.one-col{
+    display: grid;
+    flex-direction: column; 
+    position: center;
+    justify-content: center;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.description {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3d5a80;
+}
+.hrule {
+    border: 3px ridge #3d5a80;
+}
+footer {
+    background-color: #293241;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer a{ 
+    background-color: #3d5a80;
+    color:white
+}
+footer a:hover {
+    background-color: lightblue;
+    /* color: lightblue */
+}
