@@ -42,6 +42,7 @@ a:hover {
    /* background-color: #98c1d9 ; */
     padding: 10px;
     color: #3d5a80;
+    text-align: center;
 }
 .header {
     font-family: fantasy, "Copperplate";
@@ -60,8 +61,9 @@ a:hover {
     right: 0;
 }
 .mePic{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    /* padding-left: 200px; */
     border-radius: 30px;
 }
 .about{
@@ -105,6 +107,7 @@ a:hover {
     align-items: center;
     position:absolute;
     padding: 2px;
+    border-radius: 15px;
 }
 .languagesContent{
     text-align: left;
